@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form</title>
+</head>
+
+<body>
+
+<form action="#" method="post" enctype="multipart/form-data">
+
+    <fieldset>
+        <legend>Personal Info</legend>
+
+        first name:
+        <input type="text" name="firstname">
+        <br>
+
+        password:
+        <input type="password" name="password">
+        <br>
+
+        hidden:
+        <input type="hidden" name="hidden" value="123">
+        <br>
+
+        <input type="radio" name="gender" value="male"> male
+        <input type="radio" name="gender" value="female"> female
+
+    </fieldset>
+
+    <br>
+
+    Fav Color:
+    <input type="checkbox" name="color" value="red"> Red
+    <input type="checkbox" name="color" value="green"> Green
+    <input type="checkbox" name="color" value="blue"> Blue
+
+    <br>
+
+    File:
+    <input type="file" name="file">
+
+    <br>
+
+    Feedback:
+    <textarea name="feedback"></textarea>
+
+    <br>
+
+    City:
+    <select name="city">
+        <option>Cairo</option>
+        <option>Ismailia</option>
+        <option>Alexandria</option>
+    </select>
+
+    <br>
+
+    Subject:
+    <select name="subject" size="4" multiple>
+        <option>Web</option>
+        <option>Data Structures</option>
+        <option>OOP</option>
+        <option>Networks</option>
+    </select>
+
+    <br><br>
+
+    Email:
+    <input type="email" placeholder="example@domain.com">
+    <br>
+
+    Date:
+    <input type="date">
+    <br>
+
+    Color:
+    <input type="color">
+    <br>
+
+    Range:
+    <input type="range">
+    <br>
+
+    Number:
+    <input type="number">
+    <br>
+
+    URL:
+    <input type="url">
+    <br>
+
+    Time:
+    <input type="time">
+    <br>
+
+    Search:
+    <input type="search">
+    <br>
+
+    Telephone:
+    <input type="tel">
+    <br>
+
+    Egyptian phone number (using pattern):
+    <input type="tel" pattern="01[0125][0-9]{8}">
+    <br>
+
+    submit:
+    <input type="submit" value="Submit">
+    <br>
+
+    reset:
+    <input type="reset" value="Reset">
+    <br>
+
+    img button:
+    <input type="image" src="submit.png" alt="Submit" width="60">
+
+</form>
+
+</body>
+</html>
